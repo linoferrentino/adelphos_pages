@@ -30,6 +30,5 @@ Absolutely not. There is not any benefit to "arrive first" at the top of the pyr
 More or less, yes. But in the system the credit is dispersed along trust-ways, it is not centralized like in a bank.
 
 
-### What is 
 
 

@@ -4,161 +4,118 @@ content:
     items: '@self.modular'
 ---
 
-# Trust in ἀδελφός
+# 🤝 Trust in ἀδελφός
 
-Trust, like love, escapes a formal definition. However in adelphos trust
-is measured as the quantity of money that we are willing to postpone
-for a certain person or a group of people.
+Trust, like love, escapes a formal definition. However, in **ἀδελφός**, trust is measured as the amount of money we are willing to postpone for a person or group.
 
-That is, if Alice sells a used phone to Bob for 300$ and Bob
-promises Alice that he will pay Alice in a month, Alice trusts
-Bob for 300$ and a month.
+---
 
-That is, trust is a function defined in two variables, quantity
-and time.
+## 💡 What Is Trust?
 
-Of course there must be a greater trust to postpone a payment of
-30 days or 1 year. This is usually corrected in real life by the
-use of the **interest**.
+If Alice sells a used phone to Bob for $300 and Bob promises to pay in a month, Alice is trusting Bob for **$300 over 30 days**.
 
-Bob promises Alice that, if she waits one year, he will pay her
-310$, with a interest of 3%.
+Thus, trust is a **function of two variables**:
+- **Quantity** (amount of money)
+- **Time** (duration of delay)
 
-We will later see how this is implemented in adelphos, for now we
-focus on the monetary aspect of trust and how we can measure it.
+In real life, longer delays often require **interest** to compensate for risk. For example:
 
-## Definition of trust
+> Bob promises Alice that if she waits one year, he will pay her $310 — a 3% interest.
 
-Trust in adelphos is defined as the amount of delayed money that
-we are willing to sacrifice in the present.
+---
 
-The definition of trust in adelphos is this:
+## 📐 Trust as a Measurable Concept
 
-The different approach of adelphos can be summarized as this:
-when I receive a payment by A I give trust to A, and trust is
-itself related to the amount of credit that I give to the other
-party.
+In ἀδελφός, trust is defined as the **amount of delayed money** we are willing to sacrifice in the present.
 
+When I receive a payment from someone, I give **trust** to them, and that trust is proportional to the **credit** I extend.
 
-> Example: suppose we sell a used car to our wife’s best friend,
-> Lucy. The real price for a stranger should be 4,000€. Lucy tells
-> us that she has only 3,500€ in her bank account. We don’t want to
-> really discount the price too much, nor do we want to put the car
-> in the real market because we know that she needs that car;
-> another option should be that we accept a mixed payment from her.
-> 3,500€ in cash and 500€ as a credit that has a certain threshold
-> date, an IOU (I Owe You). The amount of IOU received (in this
-> case 500/4000 = 1/8 = 12.5%) is the measure of trust between us.
+### 🧾 Example
 
-In this case the system would record the IOU and the trust
-between we and Lucy has got a number.
+> Suppose we sell a used car to our wife’s best friend, Lucy.  
+> The market price is €4,000. Lucy has only €3,500.  
+> We accept €3,500 in cash and €500 as an IOU.  
+> The trust ratio is:  
+> `500 / 4000 = 12.5%`
 
-# Definition of trust.
+This 12.5% represents the **trust** we place in Lucy. The system records this IOU, and the trust becomes quantifiable.
 
-We have seen that in Adelphos trust is measured as the amount of
-credit that I am willing to get from an external party. Adelphos
-does not want (at least initially) to replace the national
-currency in total; we know that a certain amount of real money is
-necessary in every day life and we think that people should be
-gradually brought from a scarcity theory of money to a credit
-based.  In a certain sense we think that people should trust
-first of all the system and then they will join it, because they
-see that they aren’t risking too much.
+---
 
-As the percentage of IOUs that a person is willing to take in
-exchange for a transaction is decided when he enters the system,
-it risks only that amount.
+## 🧭 Philosophy of Trust in ἀδελφός
 
+Trust is the **amount of credit** I’m willing to accept from another party. ἀδελφός does not aim to replace national currencies entirely — it encourages a gradual shift from **scarcity-based money** to **credit-based exchange**.
 
-## The axiom of adelphos 
+Each participant defines their own **trust threshold** when joining the system, limiting their exposure and risk.
 
-To measure trust we have thought that a logarithmic measure is
-more adapt to model the way in which we trust people, that is a
-double measure of trust is not equal to a double amount of
-credit, but of ten times.
+---
 
-The main axiom in adelphos is this:
+## 📊 The Axiom of ἀδελφός
 
-_A unit of trust equals one unit of currency exchanged._
+We use a **logarithmic scale** to model trust, because doubling the amount of credit doesn’t necessarily double the trust.
 
-As we have many different currencies in the world in adelphos we
-simply use the Greek letter Tao (τ) as the unit of real currency.
+### 🔺 Axiom:
+> _One unit of trust equals one unit of currency exchanged._
 
-## The human unit.
+To represent currency generically, we use the Greek letter **Tao (τ)**.
 
-Real world currencies comes in many shapes and sizes and not in
-all countries the unit of currency correspond with a meaningful
-amount of money.
+---
 
-For example, in Italy, before the Euro, the Lira was not a real
-unit, because with 1 Lira you did not buy anything. The real
-currency was the Lira, but the _human unit_ was One Thousand
-Lire.
+## 🧮 The Human Unit
 
-In a country with hyper inflation the _human unit_ could be _one
-million_ of the real currency, wheter in ancient times, for
-example in England, the Pound was of too much value as a _human
-unit_.
+Currencies vary widely in value. The **human unit** is the smallest amount of money that can buy something meaningful in a given country.
 
-In the past years there was the Big Mac Index, that is how much a
-Big Mac cost in different states.
+Examples:
+- In pre-Euro Italy, 1 Lira was meaningless — but **1,000 Lire** could buy a coffee.
+- In hyperinflated economies, the human unit might be **1 million** of the local currency.
+- In the US, **$1** is a usable human unit.
 
-As the Dollar is for now the global currency, and as in USA you
-can buy something _usable_ for one dollar, we could say that the
-_human unit_ is more or less equivalent to one dollar (or one
-Euro which is almost equal in value).
+We use the human unit to compute **trust as a dimensionless value**.
 
-We will use the human unit of currency to compute the trust as an
-adimensional value.
+---
 
-## The trust-bel, unit of measure of trust
+## 📏 The Trust-bel: Unit of Trust
 
-We measure the trust as the logarith in base 10 of the amount of
-currency which we are willing to postpone, divided by the amount
-of ``human value'', TaoHV, times 10.
+Trust is measured using the **trust-bel (tb)**, defined as:
 
-And we call this scalar the trust-bel:
-
-In formula:
-
-> trust-bel = 10 * log ( Tao / TaoHV)
+    trust-bel = 10 * log10(τ / τ_HV)
 
 
-Let's do two examples with two different scenarios.
 
-In USA Alice is willing to lend Bob 100$, in USA the human value
-of currency is 1$, so we have that the trust if Alice towards Bob
-is
+Where:
+- `τ` = amount of postponed currency
+- `τ_HV` = human value of currency
 
-> trust-bel(Alice-Bob) = 10 * log ( 100$ / 1$ ) = 10 * log (100)
-> = 10 * 2 = 20 tb
->
+---
 
-So Alice trusts Bob 20tb.
+### 🧮 Example 1: USA
 
-Second Example: we are in Italy, before the Euro. Anna is willing
-to lend Bruno 1,000,000 Lire. It seems a lot, but in reality it
-was only 500Euro. In Italy we could say that at the time the
-``human value'' of the Lira was 1,000 because with one thousand
-Lira you bought something valuable (for example a coffee).
+Alice lends Bob **$100**.  
+Human value in the US = **$1**
 
-So we can compute the trust between Anna and Bruno
 
-> trust-bel(Anna-Bruno) = 10 * log (1,000,000 Lira / 1.000 Lira)
-> = 10 log (1,000) = 30 tb
+trust-bel = 10 * log10(100 / 1) = 10 * 2 = 20 tb
 
-So Anna trusts Bruno 30tb
 
-You can see from the two examples that the trust has raised of 10
-units but the amount of money has raised more or less 5 times,
-from 100$ to 500 Euros.
+---
 
-## Trust in adelphos.
+### 🧮 Example 2: Italy (pre-Euro)
 
-This measure of trusts will be used in all adelphos where the
-Human Value, for now, is simply the averaged Exchange rate
-between the Dollar and the Currency (we do not need the exact
-value, just a rough one).
+Anna lends Bruno **1,000,000 Lire**.  
+Human value = **1,000 Lire**
 
-For example we will use 100Yen as the Human Value for Yen because
-the Dollar is more or less one hundred times more valuable.
+trust-bel = 10 * log10(1,000,000 / 1,000) = 10 * 3 = 30 tb
+
+
+Even though the amount increased fivefold (from $100 to €500), the trust-bel only increased by 10 units — reflecting the logarithmic nature of trust.
+
+---
+
+## 🧠 Trust in Practice
+
+In ἀδελφός, trust-bel will be used throughout the system. The **human value** is approximated using the average exchange rate between the local currency and the dollar.
+
+Examples:
+- For Yen, we use **100 Yen** as the human unit, since $1 ≈ ¥100.
+
+

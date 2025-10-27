@@ -2,7 +2,7 @@
 title: create_user_step_two
 ---
 
-# create user, step two
+# Step two, your name and your family's name.
 
 
 In this page you will decide your user name and the name of your _family_.
@@ -16,7 +16,7 @@ adelphos is like a people's company, in which all the people in the
 company share the fortunes and misfortunes of the company without
 limits.
 
-### Limits in Adelphos
+## Limits in Adelphos
 
 But in adelphos there are limits and these are the limits based by the
 level of trust between the members, that is you **never** will have to
@@ -28,7 +28,7 @@ minors.
 
 To get more details in trust in adelphos see [trust in adelphos](../trust)
 
-### What you are asked here.
+## What you are asked here.
 
 For now you are asked to give a name to you and your family. It does
 not matter if for now you don't want to add other family members, you

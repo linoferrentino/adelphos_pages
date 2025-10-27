@@ -2,9 +2,12 @@
 title: create_user
 ---
 
-# 👤 Creating a New User: Basic Concepts
+# 👤 User in ἀδελφός, basic concepts
 
-A user in **ἀδελφός** is not like a typical user in a social media platform or commercial service. By registering, you implicitly **trust the system and its philosophy**, and you accept **responsibility for the people you may later invite**.
+A user in **ἀδελφός** is not like a typical user in a social media platform or
+commercial service. By registering, you implicitly **trust the system and its
+philosophy**, and you accept **responsibility for the people you may later
+invite**.
 
 ---
 

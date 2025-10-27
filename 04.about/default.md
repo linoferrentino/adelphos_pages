@@ -26,25 +26,27 @@ You can obtain a copy of the software here
 
 
 I wish to give my thanks to the authors of the following free or public domain
-software without which Adelphos cannot be built and run
+software without which adelphos cannot be built and run
 
->       System:
->       Linux adelphos.it 6.8.0-85-generic #85-Ubuntu SMP PREEMPT_DYNAMIC 
+>       Ubuntu 24.04.3 LTS, GNU system.
+> 
+>       Kernel Linux 6.8.0-85-generic #85-Ubuntu SMP PREEMPT_DYNAMIC 
 >
->       Web server
 >       nginx version: nginx/1.24.0 (Ubuntu)
 >
 >       Php: PHP 8.3.6 (cli) (built: Jul 14 2025 18:30:55) (NTS)
 >
->       Slim Framework: https://www.slimframework.com/
+>       Slim Framework: v4 https://www.slimframework.com/
 >
->       Grav, CMS: https://getgrav.org/
+>       Grav, CMS: 1.7.50.3  https://getgrav.org/
 >
->       Sqlite3:  https://sqlite.org/
+>       Sqlite3:  3.45.1 2024-01-30 16:01:20 https://sqlite.org/
 >
 >       GNU compiler collection: gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
 >
 >       CMake: cmake version 3.28.3
+> 
+>       git: git version 2.43.0
 > 
 
 My development environment is simple:

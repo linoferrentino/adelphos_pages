@@ -2,55 +2,35 @@
 title: create_user_step_two
 ---
 
-# Step two, your name and your family's name.
 
 
-In this page you will decide your user name and the name of your _family_.
+# If ἀδελφός is free, why do I have to choose a currency?
 
-In ἀδελφός for _family_ we intend the (somewhat restricted) group of
-people whom you personally trust to the point that their debts are
-your debts and their credits are your credits.
+While ἀδελφός uses real money, some of it is exchanged directly, and some is
+held as **cheques (IOUs)** between trusted users.
 
-If you want to make a comparison in civil code the _family_ in
-adelphos is like a people's company, in which all the people in the
-company share the fortunes and misfortunes of the company without
-limits.
+> **Note:**  
+> ἀδελφός will **NEVER** ask you for money.  
+> Use of the system is and will remain **completely free** — both in cost and in principle.
 
-## Limits in Adelphos
+A user in **ἀδελφός** is not like a typical user in a social media platform or
+commercial service. By registering, you implicitly **trust the system and its
+philosophy**, and you accept **responsibility for the people you may later
+invite**.
 
-But in adelphos there are limits and these are the limits based by the
-level of trust between the members, that is you **never** will have to
-pay more than you set here as a limit of the trust in the system and
-in your family members.
+# Trust begins with the system
 
-On top of that you can set limits for adult members and limits for
-minors.
+This isn’t unusual.
 
-To get more details in trust in adelphos see [trust in adelphos](../trust)
+- When you open a bank account, you trust the bank to safeguard your money.
+- When you dine at a restaurant, you trust the chef to prepare a safe meal.
+- Even being born in a country implies trust: in its laws, institutions, and future.
 
-## What you are asked here.
+In **ἀδελφός**, this foundational trust is formalized at registration.
 
-For now you are asked to give a name to you and your family. It does
-not matter if for now you don't want to add other family members, you
-will have a family of one, and that's OK.
+**ἀδελφός** uses your natural skill in giving value to things in monetary terms
+to measure the trust that you have towards others.
 
-In any case you will have to choose a name, and your complete name in
-adelphos will be
-
-_name_._family_@...
-
-
-Where ... will be the other groups in which you will enter (more on
-that later).
-
-For now you can think about the family as the _level zero_, the ground
-of trust which you will use later to build.
-
-It is natural to think as _family_ your surname, but this is not
-necessary. A name of "basketball_team" is good enough, if you think
-that the basketball_team is your family.
-
-You can only be in ONE family, however, all the other friends will be
-in other levels.
-
+The trust is measured in t-bel, which, even if is a number, it is related to the
+amount of credit that you wish to risk.
 

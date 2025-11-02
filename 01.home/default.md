@@ -4,15 +4,24 @@ body_classes: 'title-center title-h1h2'
 ---
 
 
-# Adelphos: The Self-Organizing, Fractal Trust Network
-
 > 40 καὶ ἀποκριθεὶς ὁ βασιλεὺς ἐρεῖ αὐτοῖς, Ἀμὴν λέγω ὑμῖν, ἐφ' ὅσον ἐποιήσατε ἑνὶ τούτων τῶν ἀδελφῶν μου τῶν ἐλαχίστων, ἐμοὶ ἐποιήσατε.  
 >  
 > The King will answer them, ‘Most certainly I tell you, because you did it to one of the least of these my brothers, you did it to me.’  
 > <cite>- Matthew 25:40</cite>
 
-## Table of Contents
-- [What is Adelphos?](#what-is-adelphos)
+## Adelphos: a trust amplifier.
+
+Adelphos (from the ancient Greek word for "brother") is a system that enables users across regions or countries to exchange goods and services using a hybrid of real currency (cash or deferred payments) and virtual credit. It builds on natural human trust starting from small groups like families, scaling fractally to larger structures like neighborhoods or communities. 
+
+This creates a self-organizing network where trust grows organically
+but when each user is able to control how much trust give to
+his direct connections.
+
+
+
+## Table of contents
+
+- [A trust amplifier](#trust-amplifier)
 - [Differences from Systems like LETS or Ripple](#differences-from-systems-like-lets-or-ripple)
 - [Economy and Trust Within Families](#economy-and-trust-within-families)
 - [Level Zero (L0): The Family Unit](#level-zero-l0-the-family-unit)
@@ -23,8 +32,49 @@ body_classes: 'title-center title-h1h2'
 - [Money in Adelphos](#money-in-adelphos)
 - [License](#license)
 
-## What is Adelphos?
-Adelphos (from the ancient Greek word for "brother") is a system that enables users across regions or countries to exchange goods and services using a hybrid of real currency (cash or deferred payments) and virtual credit. It builds on natural human trust starting from small groups like families, scaling fractally to larger structures like neighborhoods or communities. This creates a self-organizing network where trust grows organically, reducing reliance on traditional banking.
+
+
+<a id="trust-amplifier"></a>
+## A trust amplifier
+
+Since ancient times humans have invented ways to amplify their powers;
+fire, weapons, levers, machines, cars, planes, and now computers and
+A.I.  are all tools to enhance various human capabilities, like the
+ability to lift weights, to travel, to kill, to store and process
+information.
+
+
+But no significant steps have been made to amplify his capacity to love
+and to care for other people in a objectively way. Religions,
+spiritual teaching have done a great deal of work in educating people
+to care for people far from our perceived reality.
+
+However, little has been achieved; wars, oppressions and inequality
+are still present; we do not fall into the trap of saying that "the
+past was better", but certainly it was not "worse".
+
+Sometimes we are still as we were in the tribes, closed and wary.
+
+But how would it be if we created a system that helped humans to trust
+each other? We should design a system that is able to mimic the way in
+which humans care for each other.
+
+This is the core of adelphos, We can define it a **trust amplifier**.
+
+As a phone is able to carry our voice to the other part of the globe,
+adelphos is able to uplevel our natural trust in the closest circle
+(the family) to bigger and bigger groups.
+
+This is done by the user themselves who organize themselves (hence the
+word self-organizing) into bigger structures which are similar to the
+ones at the lower levels (hence the word fractal).
+
+Of course a trust amplifier needs to be trusted: the trust begins from the
+system. This is why I have decided to license it under the GPL license. In this
+way the system will remain free and each modification on it must have the same
+freedom as the initial one.
+
+
 
 ## Differences from Systems like LETS or Ripple
 - **LETS (Local Exchange Trading Systems)**: Uses purely virtual credits that cannot leave the system, limiting flexibility for real-world needs.
@@ -141,6 +191,7 @@ Key Differences:
 - RM may include interest; UM does not.
 - Users are fully liable for their own RM/UM, but only RM from invited friends.
 
+<a id="license"></a>
 ## License
 Copyright (c) Lino Ferrentino 2025. This project is licensed under the GPLv3 License.
 

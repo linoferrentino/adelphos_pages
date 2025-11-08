@@ -9,20 +9,27 @@ body_classes: 'title-center title-h1h2'
 > The King will answer them, ‘Most certainly I tell you, because you did it to one of the least of these my brothers, you did it to me.’  
 > <cite>- Matthew 25:40</cite>
 
-## Adelphos: a trust amplifier.
+## Adelphos: a white paper
 
-Adelphos (from the ancient Greek word for "brother") is a system that enables users across regions or countries to exchange goods and services using a hybrid of real currency (cash or deferred payments) and virtual credit. It builds on natural human trust starting from small groups like families, scaling fractally to larger structures like neighborhoods or communities. 
+Adelphos (from the ancient Greek word for "brother") is a system that enables
+users across regions or countries to exchange goods and services using a hybrid
+of real currency (cash or deferred payments) and virtual credit. It builds on
+natural human trust starting from small groups like families, scaling fractally
+to larger structures like neighborhoods or communities. 
 
-This creates a self-organizing network where trust grows organically
-but when each user is able to control how much trust give to
-his direct connections.
+This creates a self-organizing network where trust grows organically but when
+each user is able to control how much trust give to his direct connections.
 
+The primary goal of adelphos is facilitate exchanges, but the ultimate goal is
+to scale the trust to a partner or a son to a trust to a large group,
+potentially thousands or millions without losing sight of the neighbour
+next-door.
 
 
 ## Table of contents
 
 - [A trust amplifier](#trust-amplifier)
-- [Differences from Systems like LETS or Ripple](#differences-from-systems-like-lets-or-ripple)
+- [Siilar systems](#similar-systems)
 - [Economy and Trust Within Families](#economy-and-trust-within-families)
 - [Level Zero (L0): The Family Unit](#level-zero-l0-the-family-unit)
 - [Level One (L1): The Cohort](#level-one-l1-the-cohort)
@@ -43,15 +50,18 @@ A.I.  are all tools to enhance various human capabilities, like the
 ability to lift weights, to travel, to kill, to store and process
 information.
 
+But no significant steps have made to amplify theri capacity to love and to
+care for other people in a objectively way. Religions, spiritual teaching have
+done a great deal of work in educating people to care for people far from our
+perceived reality.
 
-But no significant steps have been made to amplify his capacity to love
-and to care for other people in a objectively way. Religions,
-spiritual teaching have done a great deal of work in educating people
-to care for people far from our perceived reality.
+Exiting the family borders trust drops drastically, like the bottom of an
+ocean; sometimes in small groups trust survives, or, ironically, in "mafia"
+style families united by crime.
 
-However, little has been achieved; wars, oppressions and inequality
-are still present; we do not fall into the trap of saying that "the
-past was better", but certainly it was not "worse".
+In the 'civil' world little has been achieved; wars, oppressions and inequality
+are still present; we do not fall into the trap of saying that "the past was
+better", but certainly it was not "worse".
 
 Sometimes we are still as we were in the tribes, closed and wary.
 
@@ -69,16 +79,86 @@ This is done by the user themselves who organize themselves (hence the
 word self-organizing) into bigger structures which are similar to the
 ones at the lower levels (hence the word fractal).
 
-Of course a trust amplifier needs to be trusted: the trust begins from the
-system. This is why I have decided to license it under the GPL license. In this
-way the system will remain free and each modification on it must have the same
-freedom as the initial one.
+
+<a id="similar-systems"></a>
+## Similar systems
+
+Based on my research two systems are similar to adelphos: the Credit
+Commons and Ripple.
+
+### Credit Commons
+
+Credit commons (https://creditcommons.net/) is an evolution of
+the LETS system which has been present since many years.
+
+The LETS system enables a group of people to exchange goods and
+services without using money.
+
+The credit Commons expands this view using a tree of accounts
+which grows fractally. The system is open source with a published
+API and groups can potentially integrate larger groups using a
+predefined rate of exchange between the credits.
+
+### Ripple
+
+Ripple is a form of monetary exchange between individuals where
+users transform the real currency in a digital token which is
+stored forever in an immutable blockchain and then it is
+converted again in currency maybe in another part of the world,
+without intermediates.
+
+It issues also StableCoin, a virtual currency backed by
+StableCoin.
 
 
+## Adelphos: a closed ecosystem based on trust.
 
-## Differences from Systems like LETS or Ripple
-- **LETS (Local Exchange Trading Systems)**: Uses purely virtual credits that cannot leave the system, limiting flexibility for real-world needs.
-- **Ripple**: Relies on a mesh of interconnections for credit paths, but lacks Adelphos' fractal hierarchy, which mimics social structures for more intuitive scaling and risk management.
+LETS is based on a total virtual currency while Ripple uses a
+real currency, or, better, a virtual digital token which is
+convertible in real money.
+
+Adelphos wants to fill the niche between the two giving users the
+possibility to choose the amount of trust to give into the system
+which translates into the amount of credit.
+
+Here we have the first axiom of adelphos: trust and credit are
+linked (see [trust-in-adelphos](#trust-in-adelphos));
+
+Another difference is that adelphos' first line of trust is
+**not** the group, but the family, because this is where trust is
+found. Like gold, trust is scarce and limited.
+
+Another difference is that adelphos wants to be a closed
+ecosystem; trust is so fragile that needs to be cultivated from
+the bottom up.
+
+If Alice sells a used phone and Bob wants to buy it, we need also
+to build a trust to send this phone from Alice to Bob and to
+exchange real money, this is used creating
+[credit-lines](#credit-lines), adelphos creates also carrier
+lines between groups that exploits the natural way in which
+people move around, see [carrier-lines](#carrier-lines)
+
+Adelphos can later also move people
+[people-lines](#people-lines), or giving them shelter
+[shelter-points](#shelter-points) or store goods waiting to be
+collected [collect-points](#collect-points)
+
+The difference with Ripple is that in adelphos the credit lines
+are fractal and hybrid. They contain a part in cash and a part in
+virtual credit and a part in real.
+
+Of course we need trust to carry cash or items without relying on
+external systems like banks and carriers, but this, in my
+opinion, is the wall which has become an obstacle for systems
+like LETS and Credit Commons to grow.
+
+Adelphos will be successful if a child in Australia will be able
+to send an action figure to a child in Italy without using an
+external carrier like FedEx or similar, because the system will
+exploit carrier lines of people who voluntary act as couriers of
+goods in the system based on trust.
+
 
 ##  Economy and Trust Within Families
 Families form the core of human trust and economy, regardless of culture. Key traits include:
@@ -193,6 +273,13 @@ Key Differences:
 
 <a id="license"></a>
 ## License
+
+Of course a trust amplifier needs to be trusted: the trust begins from the
+system. This is why I have decided to license it under the GPL license. In this
+way the system will remain free and each modification on it must have the same
+freedom as the initial one.
+
+
 Copyright (c) Lino Ferrentino 2025. This project is licensed under the GPLv3 License.
 
 ---
